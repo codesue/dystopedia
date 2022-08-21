@@ -4,7 +4,7 @@ import spacy
 from transformers import pipeline
 import wikipedia
 
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_sm")
 sentiment_analyzer = pipeline(
   "sentiment-analysis",
   model="distilbert-base-uncased-finetuned-sst-2-english",
