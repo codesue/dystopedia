@@ -1,0 +1,5 @@
+lemminflect
+gradio
+spacy
+transformers
+wikipedia
