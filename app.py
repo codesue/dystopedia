@@ -40,8 +40,9 @@ def get_summary(term):
 def launch_demo():
   title = "Dystopedia"
   description = (
-    "Make any Wikipedia topic dystopian. "
-    "Inspired by [this Tweet](https://twitter.com/lbcyber/status/1115015586243862528)"
+    "Make any Wikipedia topic dystopian. Inspired by [this Tweet](https://twitter.com/lbcyber/status/1115015586243862528). "
+    "Dystopedia uses [DistilBERT base uncased finetuned SST-2](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) "
+    "for sentiment analysis and is subject to its limitations and biases."
   )
   examples = ["joy", "hope", "peace", "Earth", "water", "food"]
   gr.Interface(
