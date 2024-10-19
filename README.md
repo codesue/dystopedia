@@ -3,8 +3,9 @@ title: Dystopedia
 emoji: 🫠
 colorFrom: green
 colorTo: purple
+python_version: 3.11.5
 sdk: gradio
-sdk_version: 3.1.6
+sdk_version: 5.1.0
 app_file: app.py
 pinned: false
 license: apache-2.0

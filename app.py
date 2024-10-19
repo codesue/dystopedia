@@ -56,7 +56,7 @@ def launch_demo(**kwargs):
     "Dystopedia uses [DistilBERT base uncased finetuned SST-2](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) "
     "for sentiment analysis and is subject to its limitations and biases."
   )
-  examples = ["joy", "hope", "peace", "Earth", "water", "food"]
+  examples = [["joy"], ["hope"], ["peace"], ["Earth"], ["water"], ["food"]]
   gr.Interface(
     fn=get_dystopian_summary,
     inputs=gr.Textbox(label="term", placeholder="Enter a term...", max_lines=1),
